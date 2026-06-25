@@ -37,6 +37,10 @@ This repository contains my PostgreSQL-based solution for the Qtrade marketplace
 ├── src/
 │   ├── generate\_synthetic.py
 │   └── load\_postgres.py
+
+├── notebooks/
+│   ├── 01\_generate\_synthetic\_data.ipynb
+│   └── docs
 ├── .env.example
 ├── .gitignore
 ├── docker-compose.yml
