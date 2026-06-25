@@ -185,7 +185,7 @@ In plain business terms: growth is currently strongly dependent on Web and Elect
 
 ## Tableau dashboard
 
-Dashboard: <https://public.tableau.com/authoring/QtradeMarketplacePerformanceDashboard/>
+Dashboard: <https://public.tableau.com/authoring/QtradeMarketplacePerformanceDashboard/WeeklyCompletedTransactionsValue#2>
 
 
 
