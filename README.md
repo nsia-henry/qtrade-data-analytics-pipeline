@@ -182,21 +182,27 @@ The channel and product mix also show concentration risk:
 
 In plain business terms: growth is currently strongly dependent on Web and Electronics. That is good for focus, but risky if either segment slows down.
 
+
 ## Tableau dashboard
 
-Use `outputs/tableau\_clean\_transactions.csv` as a quick Tableau extract, or connect Tableau directly to PostgreSQL and use:
+Dashboard: <https://public.tableau.com/authoring/QtradeMarketplacePerformanceDashboard/>
 
-* `analytics.fact\_transactions`
-* `analytics.dim\_date`
-* `analytics.dim\_channel`
-* `analytics.dim\_product\_category`
-* `analytics.dim\_status`
-* `analytics.vw\_executive\_dashboard`
-* `analytics.vw\_weekly\_growth`
-* `analytics.vw\_channel\_mix`
-* `analytics.vw\_product\_category\_mix`
+
+
+The dashboard is designed for business and operations stakeholders who need a self-service view of marketplace performance. It focuses on completed transaction value, transaction volume, weekly growth, channel mix, and product category mix.
+
+
+
+
+
+The key design decision was to separate successful sales performance from operational outcomes. Completed transactions are used for sales value metrics, while refunded and failed transactions are retained for monitoring but excluded from revenue calculations.
+
+
+
+The dashboard helps users identify growth trends, channel concentration, product concentration, and unusual weekly spikes. The main actionable insight is the unusually high completed value in the week beginning 2026-04-20, which should be investigated as a possible promotion, bulk order, or data-quality anomaly.
 
 See `docs/dashboard\_tableau.md` for the proposed dashboard layout.
+
 
 ## What I would do next
 
