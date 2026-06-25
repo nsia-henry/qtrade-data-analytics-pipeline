@@ -1,0 +1,8 @@
+metric,value
+raw_rows,4186.0
+exact_duplicate_rows_removed,33.0
+invalid_or_quarantined_rows_after_exact_dedup,118.0
+clean_modeled_transactions,4035.0
+completed_transactions_used_for_value,3456.0
+completed_value,344882.33999999997
+completed_units,5596.0
