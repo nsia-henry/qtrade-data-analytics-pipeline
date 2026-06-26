@@ -1,4 +1,4 @@
-# QTH Data \& Analytics Intern Take-Home
+# QT Data \& Analytics Take-Home
 
 This repository contains my PostgreSQL-based solution for the Qtrade marketplace take-home challenge.
 
