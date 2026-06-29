@@ -1,7 +1,0 @@
-.venv/
-__pycache__/
-.env
-*.pyc
-data/generated/*.csv
-data/generated/*.parquet
-.DS_Store
